@@ -1,7 +1,7 @@
 <script setup>
 // import scripts
 import './main.scss'
-import PipBoy from './components/PipBoy.vue'
+// import PipBoy from './components/PipBoy.vue'
 import PipMock from './components/pipMock.vue';
 
 </script>
@@ -12,18 +12,62 @@ import PipMock from './components/pipMock.vue';
   </div>
 
   <div class="hero">
-    <div class="img">
-      <img id="vaporsun" src="./assets/vaporsun.gif" alt="Vaporsun"> 
-    </div>
+    <!-- <div class="img"> -->
+    <img id="vaporsun" src="./assets/vaporsun.gif" alt="Vaporsun"> 
+  </div>
     
     <!-- <div class="img">
       <PipBoy/>
     </div> -->
 
     <div class="img">
-      <PipMock/>
+      <div class="left">
+        <PipMock/>
+      </div>
     </div>
-  </div>
+    
+    <div class="other">
+      <div class="skillz">
+        <ul>
+          <li>
+            [ STATUS ]
+          </li>
+          <li>
+            [ SPECIAL ]
+          </li>
+          <li>
+            [ SKILLS ]
+          </li>
+        </ul>
+      </div>
+      <div class="desc">
+        <div class="illustr">
+          <img src="./components/imgs/pipboy-aim2.png"/>
+        </div>
+
+        <div class="lorem">
+          <div class="skillz">
+            <ul>
+              <li>
+                <img src="./components/imgs/pipboy-aim2.png"/>
+              </li>
+              <li>
+                <img src="./components/imgs/pipboy-shield2.png"/>
+              </li>
+              <li>
+                <img src="./components/imgs/pipboy-voltage2.png"/>
+              </li>
+              <li>
+                <img src="./components/imgs/pipboy-nuclear2.png"/>
+              </li>
+            </ul>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu non odio euismod lacinia. Sit amet nisl purus in mollis nunc. Neque viverra justo nec ultrices dui sapien eget. Viverra nam libero justo laoreet sit amet cursus sit amet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames. Elementum eu facilisis sed odio morbi quis commodo odio. A pellentesque sit amet porttitor eget. At ultrices mi tempus imperdiet nulla. Id neque aliquam vestibulum morbi blandit cursus risus at ultrices. Velit sed ullamcorper morbi tincidunt. Eu facilisis sed odio morbi quis commodo odio aenean sed. Amet cursus sit amet dictum. Amet commodo nulla facilisi nullam vehicula ipsum a arcu. Nibh ipsum consequat nisl vel pretium lectus quam.
+          </p>
+        </div>
+      </div>
+    </div>
 
   <!-- <div class="section">
     <h2>This is a whole section</h2>

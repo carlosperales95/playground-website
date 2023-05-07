@@ -1,5 +1,5 @@
 <script setup>
-  // import './pipboy.scss'
+  import './styles/pipboy.scss'
 
 
   defineProps({
